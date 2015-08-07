@@ -38,8 +38,8 @@
       <file leaf-file-name="TESTE2" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/model/TESTE2">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.045945946">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -225,7 +225,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438972143846</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="LEANDERSON 23">
+      <created>1438972335504</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1438972335504</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -269,7 +275,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="LEANDERSON" />
     <MESSAGE value="LEANDERSON 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="LEANDERSON 2" />
+    <MESSAGE value="LEANDERSON 23" />
+    <option name="LAST_COMMIT_MESSAGE" value="LEANDERSON 23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -294,8 +301,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/model/TESTE2">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.045945946">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
           <folding />
         </state>
       </provider>
