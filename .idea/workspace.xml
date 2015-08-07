@@ -38,8 +38,8 @@
       <file leaf-file-name="TESTE2" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/model/TESTE2">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06891892">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.18378378">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -238,7 +238,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438972487316</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="LEANDERSON 23">
+      <created>1438972532540</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1438972532540</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -308,8 +314,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/model/TESTE2">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06891892">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.18378378">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding />
         </state>
       </provider>
