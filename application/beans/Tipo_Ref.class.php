@@ -18,4 +18,14 @@ class Tipo {
         return $this->id
     }
 
+    function setDescricao($descricao){
+        $this->descricao = $descricao;
+    }
+
+    function getDescricao(){
+        return $this->descricao;
+    }
+
+
+
 }
