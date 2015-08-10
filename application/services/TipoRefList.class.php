@@ -5,29 +5,29 @@
  * Date: 10/08/2015
  * Time: 08:45
  */
-class Tipo_Ref_List {
+class TipoRefList {
     private $tipo = array();
     private $tipoCount = 0;
     public function __construct() {
     }
-    public function gettipoCount() {
+    public function getTipoCount() {
         return $this->tipoCount;
     }
-    private function settipoCount($newCount) {
+    private function setTipoCount($newCount) {
         $this->tipoCount = $newCount;
     }
-    public function gettipo($tipoNumberToGet) {
+    public function getTipo($tipoNumberToGet) {
         if ( (is_numeric($tipoNumberToGet)) &&
-            ($tipoNumberToGet <= $this->gettipoCount())) {
+            ($tipoNumberToGet <= $this->getTipoCount())) {
             return $this->tipo[$tipoNumberToGet];
         } else {
             return NULL;
         }
     }
-    public function addtipo(tipoRefeicao $tipo_in) {
-        $this->settipoCount($this->gettipoCount() + 1);
-        $this->tipo[$this->gettipoCount()] = $tipo_in;
-        return $this->gettipoCount();
+    public function addTipo(tipoRefeicao $tipo_in) {
+        $this->setTipoCount($this->getTipoCount() + 1);
+        $this->tipo[$this->getTipoCount()] = $tipo_in;
+        return $this->getTipoCount();
     }
     public function removetipo(tipoRefeicao $tipo_in) {
         $counter = 0;
@@ -35,12 +35,12 @@ class Tipo_Ref_List {
             if ($tipo_in->getAuthorAndTitle() ==
                 $this->tipo[$counter]->getAuthorAndTitle())
             {
-                for ($x = $counter; $x < $this->gettipoCount(); $x++) {
+                for ($x = $counter; $x < $this->getTipoCount(); $x++) {
                     $this->tipo[$x] = $this->tipo[$x + 1];
                 }
-                $this->settipoCount($this->gettipoCount() - 1);
+                $this->settTipoCount($this->getTipoCount() - 1);
             }
         }
-        return $this->gettipoCount();
+        return $this->getTipoCount();
     }
 }

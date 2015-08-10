@@ -6,7 +6,7 @@
  * Time: 14:48
  */
 
-class Tipo {
+class Tipo_Ref {
     private $id;
     private $descricao;
 
