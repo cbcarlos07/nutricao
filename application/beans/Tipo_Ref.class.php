@@ -15,7 +15,7 @@ class Tipo_Ref {
     }
 
     function getId(){
-        return $this->id
+        return $this->$id;
     }
 
     function setDescricao($descricao){
