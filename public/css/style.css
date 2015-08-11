@@ -9,7 +9,7 @@
     background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */
     background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */;
-    height: 1200px;
+    height: 600px;
 }
 
 .container {
@@ -23,7 +23,7 @@
     background: linear-gradient(to bottom,  #88bfe8 0%,#70b0e0 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88bfe8', endColorstr='#70b0e0',GradientType=0 ); /* IE6-9 */
 ;
-    height: 1500px;
+    height: 1000px;
 }
 
 .head {
@@ -36,4 +36,7 @@
 
 .menu-tab{
     margin:20px 0px 0px 0px;
+}
+.tabela_dados{
+    margin: 20px auto;
 }
