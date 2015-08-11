@@ -44,6 +44,7 @@
                                 </tr>
                                 </thead>
                                 <tbody>
+                                
                                 <?php
 
                                         while ($list->hasNextTipo()) {
