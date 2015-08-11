@@ -19,7 +19,7 @@ class Tipo_DAO{
                   (:CD, :DESCR )";
         try{
             $cd = $tipoRef->getId();
-            $desc = %$tipoRef->getDescricao();
+            $desc = $tipoRef->getDescricao();
             $stmt = ociparse($con, $sql);
             oci_bind_by_name($stmt, ":CD", $cd);
             oci_bind_by_name($stmt, ":DESCR", $desc);
@@ -39,7 +39,7 @@ class Tipo_DAO{
         $sql = "UPDATE DBAADV.NUT_TIPO SET DSTIPO = :DESCR WHERE CDTIPO = :CD";
         try{
             $cd = $tipoRef->getId();
-            $desc = %$tipoRef->getDescricao();
+            $desc = $tipoRef->getDescricao();
             $stmt = ociparse($con, $sql);
             oci_bind_by_name($stmt, ":CD", $cd);
             oci_bind_by_name($stmt, ":DESCR", $desc);

@@ -9,7 +9,7 @@ class TipoListIterator {
     protected $tipoList;
     protected $currentTipo = 0;
 
-    public function __construct(tipoList $tipoList_in) {
+    public function __construct(tipoRefList $tipoList_in) {
         $this->tipoList = $tipoList_in;
     }
     public function getCurrenttipo() {

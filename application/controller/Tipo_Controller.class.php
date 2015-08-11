@@ -6,7 +6,7 @@
  * Time: 14:31
  */
 include '../model/Tipo_DAO.class.php';
-include '../beans/Tipo_Ref.class.php'
+
 class Tipo_Controller{
 
 
