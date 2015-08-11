@@ -1,6 +1,6 @@
 <html>
    <head>
-       <title> lista de tipos </title>
+       <title> Tipos de Refei&ccedil;&atilde;o </title>
        <meta charset="utf-8">
        <link href="../../public/css/bootstrap.css" rel="stylesheet" type="text/css">
        <link href="../../public/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
@@ -30,11 +30,8 @@
                                 $tipo = $list->getNextTipo();
                                 $registros++;
                             }
-                            $registros = 1;
                             if($registros>0) {
                             ?>
-                              <div class="row tabela_dados">
-                                  <div class="span11">
                             <table class="table table-bordered">
                                 <caption>painel de controle</caption>
                                 <thead>
@@ -47,7 +44,7 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                
+
                                 <?php
 
                                         while ($list->hasNextTipo()) {
@@ -70,9 +67,6 @@
                                 </tbody>
 
                             </table>
-                                  </div>
-                              </div>
-
                             <?php
                                 }else{
                                     echo "N&atilde;o existem dados a serem mostrados";

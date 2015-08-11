@@ -27,12 +27,14 @@
         <div class="span10 corpo">
 
             <form class="form-inline" name="formrefeicao" method="post" action="">
-                <label>escolha o tipo de refeicao</label>
-                <select class="span2">
-                   <option>cafe da manha</option>
-                    <option>almoco</option>
-                    <option>janta</option>
-                </select>
+                <table border="0">
+                    <tr>
+                        <td height="50"> Descri&ccedil;&atilde;o </td> <td><input name="descr" required=""></td>
+                    </tr>
+                    <tr>
+                       <td colspan="2" width="100" height="50"> <div align="center"><input type="submit" value="Salvar"> &nbsp;&nbsp; <input type="button" value="Cancelar"></div></td>
+                    </tr>
+                </table>
 
 
             </form>
