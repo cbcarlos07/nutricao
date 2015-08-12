@@ -45,7 +45,7 @@
                 $tipo = $list->getNextTipo();
                 $registros++;
             }
-            $registros = 1;
+
             if($registros>0) {
                 ?>
 
@@ -88,7 +88,9 @@
 
                 <?php
             }else{
-                echo "N&atilde;o existem dados a serem mostrados";
+                echo "<h1 align='center'>N&atilde;o existem dados a serem mostrados</h1>";
+                echo '<br /><br />';
+                echo "<div align='center'><button class='btn btn-large btn-success'>novo</button></div>";
             }
 
             ?>
