@@ -26,7 +26,7 @@
 
         <div class="span10 corpo">
             <?php
-            //$_SERVER['DOCUMENT_ROOT'].'rh/application
+            //$_SERVER['DOCUMENT_ROOT'].'rh/application;
 
             include_once '../controller/Tipo_Controller.class.php';
             include_once '../services/TipoListIterator.class.php';
