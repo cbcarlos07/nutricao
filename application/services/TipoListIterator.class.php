@@ -9,12 +9,12 @@ class TipoListIterator {
     protected $tipoList;
     protected $currentTipo = 0;
 
-    public function __construct(tipoRefList $tipoList_in) {
+    public function __construct(TipoRefList $tipoList_in) {
         $this->tipoList = $tipoList_in;
     }
-    public function getCurrenttipo() {
+    public function getCurrentTipo() {
         if (($this->currentTipo > 0) &&
-            ($this->tipoList->gettipoCount() >= $this->currentTipo)) {
+            ($this->tipoList->getTipoCount() >= $this->currentTipo)) {
             return $this->tipoList->getTipo($this->currentTipo);
         }
     }

@@ -47,6 +47,12 @@ class Tipo_Controller{
         return $tipo;
     }
 
+    public function totaReg (){
+        $td = new Tipo_DAO();
+        $total = $td->totalReg();
+        return $total;
+    }
+
 
 
 }

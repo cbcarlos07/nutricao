@@ -24,14 +24,14 @@ class TipoRefList {
             return NULL;
         }
     }
-    public function addTipo(tipoRefeicao $tipo_in) {
+    public function addTipo(Tipo_Ref $tipo_in) {
         $this->setTipoCount($this->getTipoCount() + 1);
         $this->tipo[$this->getTipoCount()] = $tipo_in;
         return $this->getTipoCount();
     }
-    public function removetipo(tipoRefeicao $tipo_in) {
+    public function removetipo(Tipo_Ref $tipo_in) {
         $counter = 0;
-        while (++$counter <= $this->gettipoCount()) {
+        while (++$counter <= $this->getTipoCount()) {
             if ($tipo_in->getAuthorAndTitle() ==
                 $this->tipo[$counter]->getAuthorAndTitle())
             {
