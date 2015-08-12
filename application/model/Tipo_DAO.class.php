@@ -173,4 +173,22 @@ class Tipo_DAO{
         return $tipo;
     }
 
+    public function totalReg(){
+       $conn = new ConnectionFactory();
+       $total = 0;
+       $connection = $conn->getConnection();
+       $sql =  "SELECT * FROM DBAADV.NUT_TIPO";
+       try{
+           $statement = ociparse($connection, $sql);
+           oci_execute($statement);
+           while($row = oci_fetch_array($statement, OCI_ASSOC)){
+               $total++;
+           }
+           $conn = oci_close($connection);
+
+       }catch (PDOException $ex){
+            echo "Erro: ".$ex->getMessage();
+        }
+        return $total;
+      }
 }

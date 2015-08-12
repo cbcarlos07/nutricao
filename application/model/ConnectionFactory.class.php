@@ -10,8 +10,10 @@ class ConnectionFactory{
                         (SERVICE_NAME=smlmv)
                         )
                         )";
+
     public  function  getConnection(){
         $ora_conexao = oci_connect($this->ora_user, $this->ora_senha, $this->ora_bd);
+        putenv("NLS_LANG=PORTUGUESE_BRAZIL.WE8ISO8859P1") or die("Falha ao inserir a variavel de ambiente");
         return $ora_conexao;
 
     }
