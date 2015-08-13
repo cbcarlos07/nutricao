@@ -40,3 +40,9 @@
 .tabela_dados{
     margin: 20px auto;
 }
+
+.caixa{
+    width:400px;
+    height: 250px;
+    background-color:#7aba7b ;
+}

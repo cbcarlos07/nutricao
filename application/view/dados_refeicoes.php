@@ -80,9 +80,11 @@
                 <?php
             }else{
                 ?>
-                <h1 align="center">N&atilde;o existem dados a serem mostrados</h1>
+                <div class="alert alert-error alert-block">
+                <h4 align="center">N&atilde;o existem dados a serem mostrados</h4>
                 <br /><br />
                 <div align="center"><a href="tipo_refeicoes.php?o=1"><button class="btn btn-large btn-success">novo</button></a></div>
+                    </div>
             <?php
             }
             ?>
